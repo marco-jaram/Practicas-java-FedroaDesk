@@ -9,7 +9,8 @@ class MarcoThreads implements Runnable{
     @Override
     public void run() {
 	for (int i = valor; i < 100; i++) {
-	    System.out.println("Hilo con valor= " + valor + " Hola Mundo. Mi iteracion es el numero=  " + i);
+	    System.out.println(" Hilo = " + Thread.currentThread().getName() + " Con Valor = " + valor
+		    + " Hola Mundo. Iteracion=  " + i);
 	}
 
 
